@@ -50,7 +50,7 @@ def get(url, verify_ssl=True):
     attempt = 0
 
     while True:
-        request = Request(url)
+        request = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
 
         attempt += 1
 
