@@ -13,9 +13,11 @@ DB = os.path.join(
     ),
 )
 
-CACHE_SERVER = 'https://fake-useragent.herokuapp.com/browsers/{version}'.format(  # noqa
-    version=__version__,
-)
+#CACHE_SERVER = 'https://fake-useragent.herokuapp.com/browsers/{version}'.format(  # noqa
+#    version=__version__,
+#)
+
+CACHE_SERVER = 'https://prix.tips/static/data/browsers.json'
 
 BROWSERS_STATS_PAGE = 'https://www.w3schools.com/browsers/default.asp'
 
