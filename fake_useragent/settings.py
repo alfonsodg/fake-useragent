@@ -6,18 +6,24 @@ import tempfile
 
 __version__ = '0.1.15'
 
-DB = os.path.join(
-    tempfile.gettempdir(),
-    'fake_useragent_{version}.json'.format(
-        version=__version__,
-    ),
-)
+# DB = os.path.join(
+#     tempfile.gettempdir(),
+#     'fake_useragent_{version}.json'.format(
+#         version=__version__,
+#     ),
+# )
 
 # CACHE_SERVER = 'https://fake-useragent.herokuapp.com/browsers/{version}'.format(  # noqa
 #     version=__version__,
 # )
 
-CACHE_SERVER = 'https://prix.tips/static/data/browsers.json'
+DB = 'config/ua.json'
+# CACHE_SERVER = 'https://fake-useragent.herokuapp.com/browsers/{version}'.format(  # noqa
+#     version=__version__,
+# )
+CACHE_SERVER = 'config/ua.json'
+
+#CACHE_SERVER = 'https://prix.tips/static/data/browsers.json'
 
 BROWSERS_STATS_PAGE = 'https://www.w3schools.com/browsers/default.asp'
 
