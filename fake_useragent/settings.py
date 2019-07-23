@@ -23,7 +23,7 @@ DB = 'config/ua.json'
 # )
 CACHE_SERVER = 'config/ua.json'
 
-#CACHE_SERVER = 'https://prix.tips/static/data/browsers.json'
+# CACHE_SERVER = 'https://prix.tips/static/data/browsers.json'
 
 BROWSERS_STATS_PAGE = 'https://www.w3schools.com/browsers/default.asp'
 
